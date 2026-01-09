@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { MdArrowDropDown } from "react-icons/md";
 
 
+
+
 const Navbar = () => {
   const [isBlogOpen, setIsBlogOpen] = useState(false);
   const [isPagesOpen, setIsPagesOpen] = useState(false);
@@ -60,6 +62,9 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+    
+   
+   
   );
 }
 
