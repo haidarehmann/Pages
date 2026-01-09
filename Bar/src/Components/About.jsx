@@ -1,6 +1,6 @@
 import React from 'react';
 import same from './images/same.jpg';
-import cup2 from './images/cup2.png';
+import cook4 from './images/cook4.avif';
 import quality from './images/quality.png';
 const About = () => {
     return (
@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div className='box1'>
                 <div className='profile1'>
-                    <img src={cup2} alt="cup2" />
+                    <img src={cook4} alt="cup2" />
                 </div>
                 <h4>Master Chefs</h4>
                 <div className='text1'>

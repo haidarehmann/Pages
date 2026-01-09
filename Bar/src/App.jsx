@@ -6,7 +6,7 @@ import Pic from './Components/Pic.jsx';
 import About from './Components/About.jsx';
 import Color from './Components/color.jsx';
 import Settings from './Components/settings.jsx';
-
+import Fast from './Components/Fast.jsx';
 
 
 const App = () => {
@@ -42,6 +42,9 @@ const App = () => {
         </div>
         <div className='const-section'>
           <Settings />
+        </div>
+        <div className='meals-section'>
+          <Fast />
         </div>
       </div>
  

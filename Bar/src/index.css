@@ -416,8 +416,8 @@ h4 {
   font-size: 18px;
   font-family: 'Cormorant Garamond', serif;
   display: flex;
-   margin-top: 13px;
-    margin-left: -5px;
+  margin-top: 13px;
+  margin-left: -5px;
 }
 
 .text2 {
@@ -492,7 +492,7 @@ h4 {
 .cards-container {
   position: relative;
   width: 100%;
-  padding: 150px 0; 
+  padding: 150px 0;
   display: flex;
   justify-content: space-around;
 }
@@ -500,10 +500,10 @@ h4 {
 .cards-container::before {
   content: "";
   position: absolute;
-  top: 25%;  
+  top: 25%;
   width: 110%;
-  height: 90%; 
- background-color: #1f2329;
+  height: 100%;
+  background-color: #1f2329;
   z-index: 0;
 }
 
@@ -545,8 +545,16 @@ h5 {
   margin-top: 15px;
   margin-left: 5px;
   font-size: 22px;
-
   font-family: 'Times New Roman', serif;
+}
+
+.left1 {
+  color: orangered;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: -20px;
+  margin-top: 10px;
 }
 
 .pic2 img {
@@ -580,7 +588,7 @@ h6 {
 .const2 {
   background-color: rgb(227, 224, 224);
   min-width: 50px;
-  height: 425px;
+  height: 450px;
   width: 300px;
   padding: 35px;
   z-index: 1;
@@ -591,17 +599,26 @@ h6 {
   top: -40px;
 }
 
+.left2 {
+  color: orangered;
+  font-size: 20px;
+  margin-left: -20px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 .const3 {
   background-color: rgb(227, 224, 224);
-      height: 430px;
-    width: 300px;
-    padding: 35px;
-    margin-left: -65px;
-    text-align: center;
-    border-radius: 10px;
-    position: relative;
-    z-index: 1;
-    top: -50px;
+  height: 430px;
+  width: 300px;
+  padding: 35px;
+  margin-left: -65px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  top: -40px;
 }
 
 .msg3 {
@@ -625,4 +642,307 @@ h6 {
 
 }
 
+.left3 {
+  color: orangered;
+  font-size: 20px;
+  margin-left: -10px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+}
 
+.discount-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -175px;
+  margin-top: 220px;
+  padding: 40px;
+  border-radius: 20px;
+
+  width: 350px;
+}
+
+.discount-percent {
+  color: orangered;
+  font-size: 55px;
+  margin-left: -530px;
+  letter-spacing: 5px;
+  margin-top: -125px;
+}
+
+.discount-text {
+  color: rgb(227, 224, 224);
+  font-size: 45px;
+  margin-left: -350px;
+  margin-top: -30px;
+  letter-spacing: 4px;
+}
+
+.discount-btn {
+  background-color: orangered;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 25px 50px;
+  margin-left: -220px;
+  margin-top: -240px;
+  position: relative;
+  width: fit-content;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+.meals {
+  position: relative;
+  width: 100%;
+  font-family: 'Times New Roman', serif;
+  padding-top: 430px;
+}
+
+.our {
+  color: orangered;
+  margin-left: 435px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.hands {
+  margin-left: 455px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: -285px;
+}
+
+.crafts {
+  margin-left: 525px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.dinner {
+  background-color: black;
+  padding: 5px 50px;
+  width: 340px;
+  margin: 50px auto;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dinner-menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.dinner-menu li {
+  color: white;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s, transform 0.3s;
+  padding: 8px 12px;
+}
+
+
+.dinner-menu li:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+
+.dinner-menu li.active {
+  color: orangered;
+  font-weight: bold;
+}
+
+
+.dinner-menu li.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: orangered;
+  bottom: -5px;
+  left: 0;
+  border-radius: 2px;
+}
+
+.chicken {
+  position: relative;
+  height: 450px;
+}
+
+.bbq1 {
+  position: absolute;
+  top: -5px;
+  left: 13px;
+}
+
+.bbq1 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.bbq2 {
+  position: absolute;
+  top: -5px;
+  left: 323px;
+}
+
+.bbq2 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+
+.bbq3 {
+  position: absolute;
+  top: -5px;
+  left: 633px;
+}
+
+.bbq3 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.bbq4 {
+  position: absolute;
+  top: -5px;
+  left: 943px;
+}
+
+.bbq4 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.bbq5 {
+  position: absolute;
+  top: 225px;
+  left: 13px;
+}
+
+.bbq5 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.bbq6 {
+  position: absolute;
+  top: 225px;
+  left: 323px;
+}
+
+.bbq6 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.bbq7 {
+  position: absolute;
+  top: 225px;
+  left: 633px;
+}
+
+.bbq7 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.bbq8 {
+  position: absolute;
+  top: 225px;
+  left: 943px;
+}
+
+.bbq8 img {
+  width: 310px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.meet {
+  position: relative;
+  width: 100%;
+  font-family: 'Times New Roman', serif;
+  padding-top: 260px;
+}
+
+.expert {
+  color: orangered;
+  margin-left: 400px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.chefs {
+  margin-left: 465px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: -285px;
+}
+
+.mid {
+  margin-left: 565px;
+  font-size: 55px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.caps {
+  width: 200px;
+  height: 500px;
+  position: relative;
+}
+
+.cap1 img {
+  width: 370px;
+  margin-left: 40px;
+  top: 45px;
+  height: 440px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  border-top-left-radius: 270px;
+  border-bottom-left-radius: 40px;
+}
+
+.cap2 img {
+ width: 370px;
+    margin-left: 450px;
+    top: 45px;
+    height: 440px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    border-top-left-radius: 270px;
+    border-bottom-left-radius: 40px;
+}
+.cap3 img {
+ width: 370px;
+    margin-left: 860px;
+    top: 45px;
+    height: 440px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    border-top-left-radius: 270px;
+    border-bottom-left-radius: 40px;
+}
